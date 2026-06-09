@@ -8,7 +8,7 @@
   padding: 10px;
 border-radius: 5%;
   width: 20%;
-
+    min-width: 140px;
 
 }.display {
     width: 95%;  
