@@ -1,0 +1,43 @@
+.body {
+    background-color: black;
+    padding-left: 40%;
+    padding-top: 10%;
+}
+.calculator-box {
+    border: 2px solid #ac1818; 
+  padding: 10px;
+border-radius: 5%;
+  width: 20%;
+
+
+}.display {
+    width: 95%;  
+    background-color: red; 
+    justify-content: center;
+    
+}
+.grid-container {
+    
+    padding-top: 5%;
+    justify-content: center;
+    display: grid;
+    gap: 10px;
+    /*width: 20px;*/
+    grid-template-columns: repeat(4, 30px);
+    
+}
+
+.grid-element {
+    background-color: red;
+    padding: 10px 40 px;
+    color: black;
+    border-radius: 6px;
+
+    &:hover {
+    opacity : 0.7;
+    }
+
+    &:active {
+    opacity :0.5;
+    }
+}
