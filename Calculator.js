@@ -179,7 +179,7 @@ const buttonEqual = document.getElementById('btn-=')
         if (currentOperation ==='+') {
             result = Number(firstNumber) +Number(secondNumber)
         } 
-        display.value = result;
+        display.value = parseFloat(result.toFixed(12));
     })
 
 const buttonToSquare = document.getElementById('btn-x^2')
