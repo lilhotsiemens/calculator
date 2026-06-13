@@ -181,8 +181,4 @@ if(!display.value.includes('.')){
         return;
     }
 })
-window.open(
-  'index.html', 
-  'CalculatorPopup', 
-  'width=300,height=400,resizable=no,scrollbars=no'
-);
+
