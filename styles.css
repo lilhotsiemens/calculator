@@ -6,6 +6,9 @@ body {
   justify-content: center; 
   align-items: center;     
   background-color: #8d8989;
+     -webkit-appearance: none; 
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .calc-box{
